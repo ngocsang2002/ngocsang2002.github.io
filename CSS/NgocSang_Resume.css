@@ -79,9 +79,29 @@ footer a{
 	color: white;
 }
 
-/*#text {
+#text:link{
 	text-decoration: none;
-}*/
+	background-color: transparent;
+	color: black;
+}
+
+#text:visited{
+	text-decoration: none;
+	background-color: transparent;
+	color: pink;
+}
+
+#text:hover { /*Khi cho chuột vào*/
+	text-decoration: underline;
+	color: red;
+	background-color: transparent;
+}
+
+#text:active{ /*Khi ấn*/
+	text-decoration: underline;
+	color: yellow;
+	background-color: transparent;
+}
 
 #img {
 	width: 20px;
